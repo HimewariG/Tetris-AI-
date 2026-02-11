@@ -1,6 +1,6 @@
 # Tetris-AI-
 
-This is a project is an attempt to implement Genetic Algorithm onto Tetris. The goal is to create an AI that is able to recognize patterns.
+This is a project is an attempt to implement Genetic Algorithm onto Tetris. The goal is to create an AI that is able to recognize patterns. It is written in Python and the  main library used is Pytorch and Pygame.
 
 # Structure of the code
 
