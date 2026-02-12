@@ -386,8 +386,9 @@ class Game:
 
 gn = GeneticAlgorithm([],torch.device("cpu"),0.6,15,0.04,40,0.6)
 best_fitness, best_weights = gn.Glorious_Evolution()
-torch.save(best_weights, "tetris_ai2.pth")
-print(best_weights)
+#This remaining  part of the code is google colab specific it is to save the code to run on the performing platform
+torch.save(best_weights, "tetris_ai2.pth") 
+print(best_weights) 
 
 
 
